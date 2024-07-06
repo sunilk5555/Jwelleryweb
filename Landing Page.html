@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Landing Page</title>
+        <style>
+            body{
+                background: black;
+                color: white;
+                overflow: hidden;
+            }
+            nav{
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 5px;
+                font-family: "Arial Black";
+                position: absolute;
+                top:0px;
+            }
+            .menu a{
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                padding: 10px 20px;
+                margin: 0px 5px;
+            }
+            .menu a:last-child{
+                background: yellow;
+                color: black;
+                border-radius: 5px;
+            }
+            .menu a:hover{
+                background: red;
+            }
+            .container{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 10px;
+                margin-left: 5px;
+            }
+            .left{
+                flex-basis: 40%;
+                top: 10px;
+                line-height: 1.2rem;
+                margin-left: 15px;
+                color: orange;
+            }
+            .right{
+                flex-basis: 50%;
+            }
+            .right img{
+                width: 100%;
+                height: 100%;
+            }
+           .left h1{
+            color: orange;
+            font-size: 3.5rem;
+            line-height: 3.5rem;
+           } 
+           .left h3{
+            color: yellow;
+            font-size: 1rem;
+           }
+           .left button{
+            background: orange;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            font-family: "Arial Black";
+            font-size: 13px;
+           }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="log.jpg" width="150" height="100">
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Features</a>
+                    <a href="#">Special Offers</a>
+                    <a href="#">About us</a>
+                    <a href="#">Shop Now</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="left">
+                <h1>The Home Of<br> HERITAGE</h1>
+                <h3>Heritage jewelry is a classic trend that reflects India's rich heritage. <br>It is a timeless collection of designs that tell a creative story of excellence and graceful style.</h3>
+                <h3>At Tanishq, we strive to deliver excellence, consistently.<br> We've brought to the market a whole new standard of business ethics and product reliability.</h3>
+                <button>Visit Now</button>
+            </div> 
+            <div class="right">
+                <img src="jo.jpg">
+            </div>
+        </div>
+    </body>
+</html>
